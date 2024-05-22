@@ -1,0 +1,82 @@
+
+  body{
+  background: url("assets/Bg-img.jpg") no-repeat center center fixed;
+  background-size: cover;
+  
+  overflow: hidden;
+  }
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+ height: 200px;
+ position: relative;
+ 
+  
+}
+#head{
+  
+  text-align: center;
+  color:white;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+}
+#content
+{
+  color: ghostwhite;
+  margin-top: 00px;
+  text-align: center;
+  position: absolute;
+  font-size: large;
+}
+input{
+  margin-bottom: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  width :370px;
+  height: 35px;
+  font-family: "Zilla Slab", serif;
+  font-weight: 00;
+  font-style: normal;
+  font-size: medium;
+}
+/* button{
+  color: rgb(70, 68, 68);
+  background-color: 	rgb(135, 206, 235);
+  border: 1px solid 	rgb(135, 206, 235);
+  width: 170px;
+  height: 35px;
+  border-radius: 8px;
+  line-height: 20px;
+  cursor:pointer;
+  
+} */
+/* button:hover{
+  background-color: aqua;
+} */
+#updates{
+  position: absolute;
+  margin-top: 400px;
+  font-size: medium;
+ text-align: center;
+  color: rgb(40, 33, 33);
+  padding-top: 70px;
+  /* font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal; */
+  span{
+    
+    line-height: 70px;
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: small;
+  font-style: normal;}
+  
+}
